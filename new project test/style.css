@@ -1,0 +1,106 @@
+body{
+    padding:0;
+    margin:0;
+}
+*{
+    font-family: sans-serif;
+}
+.project-all{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding:10px;
+}
+
+.project-all .all{
+    display:flex;
+    flex-direction:column;
+    gap:20px; 
+}
+.project-all .all .form .first-input{
+    width:90%;
+    padding:8px;
+    border-radius:7px;
+    background:#000000c9;
+    border:none;
+    color:white;
+    font-size:15px;
+    text-transform: uppercase;
+    margin:10px;
+    outline:none;
+}
+.project-all .all .form .first-input::placeholder{
+    text-transform:lowercase;
+    color:#ffffff5d;
+}
+.project-all .form .number{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    gap:30px;
+}
+.total{
+    padding:5px;
+    border-radius:7px;
+    border:none;
+    background:#fff;
+    width:100px;
+    white-space:nowrap;
+}
+.project-all .all .form .number1{
+    width:50%;
+}
+
+.project-all .all .form .create{
+    cursor:pointer;
+    transition:all 0.5s;
+}
+.project-all .all .form .create:hover{
+    box-shadow:1px 1px 12px 1px #0000ff8a;
+    color:blue;
+    background:#0000ff87;
+}
+
+.project-all .all .form .all-button{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+
+.project-all .all .form .all-button .buttoncon{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:100%;
+    margin-top: 20px;
+}
+.project-all .all .form .all-button .buttoncon .button-2{
+     width:30%;
+     text-transform:lowercase;
+}
+ 
+.project-all .all .data table{
+    width:100%;
+    height:fit-content;
+    text-align:center;
+    padding:10px;
+}
+.project-all .all .data table tr td,
+.project-all .all .data table th{
+width:200px;
+height:20px;
+padding:10px;
+}
+
+.button-show{
+    padding:10px;
+    background:#0000ff73;
+    border:none;
+    border-radius:6px;
+    margin:10px;
+}

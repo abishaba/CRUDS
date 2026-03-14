@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUDS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="classadd">
+    <div class="project-all">
+        <div class="text">
+    <h1>CRUDS</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, vel?</p>
+    </div>
+    <section class="all">
+         <div class="form">
+            <input type="text" placeholder="title" class="first-input" id="title">
+            <div class="number">
+                <input type="number" class="first-input number1" placeholder="price" id="price" onkeyup="gettotal()">
+                <input type="number" class="first-input number1" placeholder="taxes" id="taxes" onkeyup="gettotal()">
+                <input type="number" class="first-input number1" placeholder="ads" id="ads" onkeyup="gettotal()">
+                <input type="number" class="first-input number1" placeholder="discount" id="discount" onkeyup="gettotal()">
+                <div class="total create" id="total" onkeyup="gettotal()">Total</div>
+            </div>
+
+            <input type="text"  placeholder="counter" class="counter first-input" id="counter">
+            <input type="text" placeholder="change" class="change first-input" id="change">
+            <button class="first-input create" id="create">create</button>
+            <input class="first-input search" type="search" placeholder="search" id="search" onkeyup="searching(this.value)">
+
+           <div class="all-button">
+             <div class="buttoncon">
+             <button class="first-input button-2 create" id="search-by-title" onclick="searchdata(this.id)">search by title</button>
+            <button class="first-input button-2 create" id="search-by-category" onclick="searchdata(this.id)">search by category</button>
+            </div>
+
+            <div class="deleteall">
+                
+             <button onclick="deleteall()" class="first-input button-2 create" id="Element">Delete All</button>
+            </div>
+           </div>
+        </div>
+        <div class="data">
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>catgory</th>
+                    <th>uppdate</th>
+                    <th>Delete</th>
+                </tr>
+                </thead>
+               <tbody id="tbody">
+                 <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+               </tbody>
+            </table>
+        </div>
+    </section>
+    </div>
+    <script src="/new project test/script.js"></script>
+</body>
+</html>
